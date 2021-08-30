@@ -1,4 +1,4 @@
-FROM ttbb/base:jdk11
+FROM ttbb/base:jdk8
 
 LABEL maintainer="shoothzj@gmail.com"
 
