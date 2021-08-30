@@ -9,7 +9,7 @@ ARG download=4.9.1-bin-release
 
 RUN wget https://downloads.apache.org/rocketmq/$version/rocketmq-all-$download.zip && \
 unzip rocketmq-all-$download.zip && \
-mv rocketmq-all-$download.zip rocketmq && \
+mv rocketmq-all-$download rocketmq && \
 rm -rf rocketmq-all-$download.zip
 
 WORKDIR /opt/sh/rocketmq
