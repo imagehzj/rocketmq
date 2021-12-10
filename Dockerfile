@@ -6,8 +6,8 @@ WORKDIR /opt/sh
 
 ENV ROCKETMQ_HOME /opt/sh/rocketmq
 
-ARG version=4.9.1
-ARG download=4.9.1-bin-release
+ARG version=4.9.2
+ARG download=4.9.2-bin-release
 
 RUN wget https://downloads.apache.org/rocketmq/$version/rocketmq-all-$download.zip && \
 unzip rocketmq-all-$download.zip && \
