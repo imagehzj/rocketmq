@@ -11,7 +11,7 @@ ARG download=4.9.2-bin-release
 
 RUN wget https://downloads.apache.org/rocketmq/$version/rocketmq-all-$download.zip && \
 unzip rocketmq-all-$download.zip && \
-mv rocketmq-all-$download rocketmq && \
+mv rocketmq-$version rocketmq && \
 rm -rf rocketmq-all-$download.zip && \
 rm -rf /opt/sh/rocketmq/LICENSE && \
 rm -rf /opt/sh/rocketmq/NOTICE && \
